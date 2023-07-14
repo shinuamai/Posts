@@ -1,10 +1,15 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
-    <a class="navbar-brand" href="#">POSTS <img class="img img-fluid" src="https://i.ibb.co/c6YMp91/buho.png" alt="buho"/></a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5">
+    <a class="px-5 navbar-brand" href="#"><img class="img img-fluid" src="https://i.ibb.co/c6YMp91/buho.png" alt="buho"/>POSTS</a>
+    <button mat-button [matMenuTriggerFor]="menu" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item><a class="nav-link" href="#">Inicio</a></button>
+      <button mat-menu-item><a class="nav-link" routerLink="/posts">Posts</a></button>
+      <button mat-menu-item><a class="nav-link" href="#">Contacto</a></button>
+    </mat-menu>
+
     <div class="collapse navbar-collapse justify-content-end px-5" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">

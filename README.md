@@ -28,4 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## DONT FORGET
 Run in new folder `git clone https://github.com/shinuamai/Posts.git`
+
+## 
+
 Run `npm i` for dependencies

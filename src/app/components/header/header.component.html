@@ -5,21 +5,17 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item><a class="nav-link" href="#">Inicio</a></button>
+      <button mat-menu-item><a class="nav-link" routerLink="/inicio">Inicio</a></button>
       <button mat-menu-item><a class="nav-link" routerLink="/posts">Posts</a></button>
-      <button mat-menu-item><a class="nav-link" href="#">Contacto</a></button>
     </mat-menu>
 
     <div class="collapse navbar-collapse justify-content-end px-5" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" routerLink="/inicio">Inicio</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/posts">Posts</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
         </li>
       </ul>
     </div>

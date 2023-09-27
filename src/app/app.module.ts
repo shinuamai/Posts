@@ -10,8 +10,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatMenuModule } from '@angular/material/menu';
-import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -26,9 +24,7 @@ import { MatButtonModule } from '@angular/material/button';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    BrowserAnimationsModule,
-    MatMenuModule,
-    MatButtonModule
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core'
 import { DataApiService } from 'src/app/services/data-api.service'
-import { Post } from 'src/app/models/Post'
+import { Post } from 'src/app/interfaces/Post'
 @Component({
   selector: 'app-post-list',
   templateUrl: './post-list.component.html',
